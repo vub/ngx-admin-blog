@@ -6,6 +6,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ECommerceComponent } from './e-commerce/e-commerce.component';
 import { NotFoundComponent } from './miscellaneous/not-found/not-found.component';
 import { AboutMeComponent } from './profile/about-me/about-me.component';
+import { PhotographyComponent } from './photography/photography.component';
+import { ProjectComponent } from './project/project.component';
+import { ResumeComponent } from './resume/resume.component';
+import { WritingComponent } from './writing/writing.component';
 
 const routes: Routes = [{
   path: '',
@@ -14,6 +18,22 @@ const routes: Routes = [{
     {
       path: 'profile',
       component: AboutMeComponent,
+    },
+    {
+      path: 'photography',
+      component: PhotographyComponent,
+    },
+    {
+      path: 'project',
+      component: ProjectComponent,
+    },
+    {
+      path: 'resume',
+      component: ResumeComponent,
+    },
+    {
+      path: 'writing',
+      component: WritingComponent,
     },
     {
       path: 'dashboard',

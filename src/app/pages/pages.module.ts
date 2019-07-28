@@ -8,6 +8,10 @@ import { ECommerceModule } from './e-commerce/e-commerce.module';
 import { PagesRoutingModule } from './pages-routing.module';
 import { MiscellaneousModule } from './miscellaneous/miscellaneous.module';
 import { ProfileModule } from './profile/profile.module';
+import { PhotographyModule } from './photography/photography.module';
+import { ProjectModule } from './project/project.module';
+import { ResumeModule } from './resume/resume.module';
+import { WritingModule } from './writing/writing.module';
 
 @NgModule({
   imports: [
@@ -18,6 +22,10 @@ import { ProfileModule } from './profile/profile.module';
     ECommerceModule,
     MiscellaneousModule,
     ProfileModule,
+    PhotographyModule,
+    ProjectModule,
+    ResumeModule,
+    WritingModule,
   ],
   declarations: [
     PagesComponent,

@@ -7,6 +7,26 @@ export const MENU_ITEMS: NbMenuItem[] = [
     link: '/pages/profile',
     home: true,
   },
+  {
+    title: 'I\'m writer',
+    icon: 'edit-2-outline',
+    link: '/pages/writing',
+  },
+  {
+    title: 'I play with cameras',
+    icon: 'camera-outline',
+    link: '/pages/photography',
+  },
+  {
+    title: 'My projects',
+    icon: 'flash-outline',
+    link: '/pages/project',
+  },
+  {
+    title: 'View Vu\'s resume',
+    icon: 'file-text-outline',
+    link: '/pages/resume',
+  },
   // {
   //   title: 'E-commerce',
   //   icon: 'shopping-cart-outline',
