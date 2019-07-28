@@ -8,6 +8,15 @@ export class UserService extends UserData {
   private time: Date = new Date;
 
   private users = {
+    vu: {
+      name: 'Vu Bui',
+      picture: 'assets/images/vu-face-avata.jpg',
+      instagram: 'https://www.instagram.com/buiminhvu__',
+      facebook: 'https://www.facebook.com/buiminhvu92',
+      linkedin: 'https://www.linkedin.com/in/buiminhvu',
+      twitter: 'https://twitter.com/buiminhvu__',
+      github: 'https://github.com/vub',
+    },
     nick: { name: 'Nick Jones', picture: 'assets/images/nick.png' },
     eva: { name: 'Eva Moor', picture: 'assets/images/eva.png' },
     jack: { name: 'Jack Williams', picture: 'assets/images/jack.png' },
