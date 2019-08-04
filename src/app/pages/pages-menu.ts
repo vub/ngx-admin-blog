@@ -27,6 +27,12 @@ export const MENU_ITEMS: NbMenuItem[] = [
     icon: 'file-text-outline',
     link: '/pages/resume',
   },
+  {
+    title: 'TIL',
+    icon: 'book-open-outline',
+    url: 'https://github.com/vub/til',
+    target: '_blank'
+  },
   // {
   //   title: 'E-commerce',
   //   icon: 'shopping-cart-outline',
