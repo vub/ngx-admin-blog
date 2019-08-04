@@ -27,7 +27,7 @@
     "docs:serve": "compodoc -p src/tsconfig.app.json -d docs -s",
     "prepush": "npm run lint:ci",
     "release:changelog": "npm run conventional-changelog -- -p angular -i CHANGELOG.md -s",
-    "publish:github-page": "ngh --no-silent --branch=master --repo=https://061071fba2aa385826a6953d3046ba9f85d2d4c1@github.com/vub/vub.github.io.git",
+    "publish:github-page": "ngh --no-silent --branch=master --repo=https://vub@github.com/vub/vub.github.io.git --cname=buiminhvu.com",
     "deploy:blog": "yarn build:prod && yarn publish:github-page"
   },
   "dependencies": {

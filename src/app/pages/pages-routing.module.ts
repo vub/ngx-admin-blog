@@ -5,7 +5,7 @@ import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ECommerceComponent } from './e-commerce/e-commerce.component';
 import { NotFoundComponent } from './miscellaneous/not-found/not-found.component';
-import { AboutMeComponent } from './profile/about-me/about-me.component';
+import { AboutMeComponent } from './profile/about-me.component';
 import { PhotographyComponent } from './photography/photography.component';
 import { ProjectComponent } from './project/project.component';
 import { ResumeComponent } from './resume/resume.component';
